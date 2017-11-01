@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
         });
 
-        //Spinner2
+        //Spinner22
         Spinner spinnerII = (Spinner) findViewById(R.id.spinner2);
         adapter = ArrayAdapter.createFromResource(this,R.array.mode,android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
